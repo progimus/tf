@@ -15,9 +15,17 @@
    version="1.1"
    id="svg6497"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="palo.svg">
+   sodipodi:docname="espada.svg">
   <defs
-     id="defs6491" />
+     id="defs6491">
+    <pattern
+       y="0"
+       x="0"
+       height="6"
+       width="6"
+       patternUnits="userSpaceOnUse"
+       id="EMFhbasepattern" />
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -25,9 +33,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-127.14286"
-     inkscape:cy="560"
+     inkscape:zoom="0.7"
+     inkscape:cx="-198.73665"
+     inkscape:cy="267.15605"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -44,12 +52,33 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
-     id="layer1" />
+     id="layer1">
+    <path
+       id="path815"
+       d="M 9.0762049,189.9303 H 74.078562 v 99.99059 H 9.0762049 Z"
+       style="fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332"
+       inkscape:connector-curvature="0" />
+    <path
+       id="rect6078"
+       style="fill:#3a7ebe;stroke-width:0.22897527;fill-opacity:1"
+       d="m 41.699791,214.66124 2.37762,-3.63396 v 7.8178 h -5 z m -5.12241,37.4703 h 10 v 3 h -10 z m 2.50002,-33.28646 h 5 v 49.99999 h -5 z"
+       inkscape:connector-curvature="0" />
+    <path
+       id="rect6078-5"
+       style="fill:#3a7ebe;stroke-width:0.07920582;fill-opacity:1"
+       d="m 68.598844,280.72641 -0.82245,1.25704 v -2.70429 h 1.72957 z m 1.77192,-12.96151 h -3.45914 v -1.03774 h 3.45914 z m -0.86479,11.51426 h -1.72957 v -17.29571 h 1.72957 z"
+       inkscape:connector-curvature="0" />
+    <path
+       id="rect6078-5-6"
+       style="fill:#3a7ebe;stroke-width:0.07920582;fill-opacity:1"
+       d="m 14.547463,199.12713 0.82245,-1.25704 v 2.70429 h -1.72957 z m -1.77192,12.96151 h 3.45914 v 1.03774 h -3.45914 z m 0.86479,-11.51426 h 1.72957 v 17.29571 h -1.72957 z"
+       inkscape:connector-curvature="0" />
+  </g>
 </svg>
