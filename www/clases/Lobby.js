@@ -19,9 +19,8 @@ module.exports = class Lobby {
     player.socket.leave(this.room);
   }
 
-  joinQueue(player) {
-    console.log(player.id);
-    this.queue.push(player);
+  joinQueue(id) {
+    this.queue.push(this.players[id]);
 
     if (this.queue.length < 3) return;
 
@@ -31,8 +30,10 @@ module.exports = class Lobby {
   }
 
   startGame(players) {
-    const game = new CinquilloGame(this.game.length, players);
+    const game = new CinquilloGame(this.games.length, players);
 
     this.games[game.id] = game;
+
+    game.start();
   }
 }
